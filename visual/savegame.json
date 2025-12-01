@@ -1,0 +1,84 @@
+{
+    "player": {
+        "x": 213,
+        "y": 491,
+        "lives": 5,
+        "score": 105
+    },
+    "fase": {
+        "current_phase": 1,
+        "meteoros_destruidos": 11
+    },
+    "meteoros": [
+        {
+            "x": 653,
+            "y": 133,
+            "speed": 3,
+            "tipo": "normal",
+            "hits": 1
+        },
+        {
+            "x": 376,
+            "y": -36,
+            "speed": 4,
+            "tipo": "normal",
+            "hits": 1
+        },
+        {
+            "x": 241,
+            "y": 221,
+            "speed": 3,
+            "tipo": "normal",
+            "hits": 1
+        },
+        {
+            "x": 557,
+            "y": -59,
+            "speed": 4,
+            "tipo": "normal",
+            "hits": 1
+        },
+        {
+            "x": 521,
+            "y": 189,
+            "speed": 3,
+            "tipo": "normal",
+            "hits": 1
+        },
+        {
+            "x": 140,
+            "y": 512,
+            "speed": 7,
+            "tipo": "mortal",
+            "hits": 1
+        },
+        {
+            "x": 574,
+            "y": 475,
+            "speed": 5,
+            "tipo": "invulneravel",
+            "hits": 1
+        },
+        {
+            "x": 355,
+            "y": 239,
+            "speed": 3,
+            "tipo": "powerup",
+            "hits": 1
+        },
+        {
+            "x": 751,
+            "y": 26,
+            "speed": 5,
+            "tipo": "vidas_extra",
+            "hits": 1
+        }
+    ],
+    "boss": {
+        "active": false,
+        "health": 0,
+        "x": 0,
+        "y": 0,
+        "rage": false
+    }
+}
