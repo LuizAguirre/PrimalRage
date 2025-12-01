@@ -1,119 +1,105 @@
 {
     "player": {
-        "x": 476,
-        "y": 540,
-        "lives": 19,
-        "score": 2059
+        "x": 405,
+        "y": 456,
+        "lives": 7,
+        "score": 247
     },
     "fase": {
-        "current_phase": 3,
-        "meteoros_destruidos": 40
+        "current_phase": 2,
+        "meteoros_destruidos": 3
     },
     "meteoros": [
         {
-            "x": 679,
-            "y": 316,
-            "speed": 6,
-            "tipo": "mortal",
+            "x": 216,
+            "y": 475,
+            "speed": 4,
+            "tipo": "normal",
             "hits": 1
         },
         {
-            "x": 61,
-            "y": 333,
-            "speed": 6,
-            "tipo": "mortal",
+            "x": 705,
+            "y": 572,
+            "speed": 4,
+            "tipo": "normal",
             "hits": 1
         },
         {
-            "x": 377,
-            "y": 160,
-            "speed": 7,
-            "tipo": "mortal",
+            "x": 357,
+            "y": 139,
+            "speed": 5,
+            "tipo": "normal",
             "hits": 1
         },
         {
-            "x": 82,
-            "y": 30,
-            "speed": 7,
-            "tipo": "mortal",
+            "x": 116,
+            "y": 29,
+            "speed": 5,
+            "tipo": "normal",
             "hits": 1
         },
         {
-            "x": 310,
-            "y": 389,
+            "x": 720,
+            "y": 277,
+            "speed": 3,
+            "tipo": "normal",
+            "hits": 1
+        },
+        {
+            "x": 263,
+            "y": 63,
+            "speed": 4,
+            "tipo": "normal",
+            "hits": 1
+        },
+        {
+            "x": 716,
+            "y": 384,
+            "speed": 3,
+            "tipo": "normal",
+            "hits": 1
+        },
+        {
+            "x": 588,
+            "y": -164,
+            "speed": 4,
+            "tipo": "normal",
+            "hits": 1
+        },
+        {
+            "x": 468,
+            "y": 157,
             "speed": 5,
             "tipo": "mortal",
             "hits": 1
         },
         {
-            "x": 682,
-            "y": -65,
-            "speed": 7,
-            "tipo": "mortal",
-            "hits": 1
-        },
-        {
-            "x": 296,
-            "y": -48,
-            "speed": 7,
-            "tipo": "mortal",
-            "hits": 1
-        },
-        {
-            "x": 45,
-            "y": 353,
-            "speed": 7,
-            "tipo": "mortal",
-            "hits": 1
-        },
-        {
-            "x": 293,
-            "y": 444,
-            "speed": 5,
-            "tipo": "mortal",
-            "hits": 1
-        },
-        {
-            "x": 647,
-            "y": 104,
-            "speed": 5,
-            "tipo": "mortal",
-            "hits": 1
-        },
-        {
-            "x": 331,
-            "y": -115,
-            "speed": 5,
-            "tipo": "mortal",
-            "hits": 1
-        },
-        {
-            "x": 591,
-            "y": 304,
+            "x": 228,
+            "y": 13,
             "speed": 3,
             "tipo": "invulneravel",
             "hits": 1
         },
         {
-            "x": 115,
-            "y": 425,
-            "speed": 3,
+            "x": 436,
+            "y": -74,
+            "speed": 4,
             "tipo": "powerup",
             "hits": 1
         },
         {
-            "x": 272,
-            "y": 229,
+            "x": 204,
+            "y": 113,
             "speed": 4,
             "tipo": "vidas_extra",
             "hits": 1
         }
     ],
     "boss": {
-        "active": true,
-        "health": 40,
-        "x": 378,
-        "y": 45,
+        "active": false,
+        "health": 0,
+        "x": 0,
+        "y": 0,
         "rage": false
     }
 }
